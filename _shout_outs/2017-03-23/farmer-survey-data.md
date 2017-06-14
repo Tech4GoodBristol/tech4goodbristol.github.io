@@ -1,4 +1,5 @@
 ---
+date: 2017-03-23
 title: Farmer Survey Data
 contact_name: J Hammond
 contact_details:  J.hammond@CGIAR.org

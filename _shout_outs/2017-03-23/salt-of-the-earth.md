@@ -1,4 +1,5 @@
 ---
+date: 2017-03-23
 title: Salt of the Earth 
 contact_name: Tom Edwards
 contact_details:  tom@sote.org.uk

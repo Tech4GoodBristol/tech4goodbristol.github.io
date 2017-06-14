@@ -1,4 +1,5 @@
 ---
+date: 2017-03-23
 title: Impact Visualisation Linked Data
 contact_name: Ed Howarth
 contact_details:  ed.howarth@gmail.com

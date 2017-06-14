@@ -1,4 +1,5 @@
 ---
+date: 2017-03-23
 title: Managing Internal Data
 contact_name: dalepotter@gmail.com
 contact_details: "@DALEJPOTTER"

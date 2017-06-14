@@ -1,4 +1,5 @@
 ---
+date: 2017-03-23
 title: DataKindUK
 contact_name: Emma Prest
 contact_details:  "@DataKindUK"
