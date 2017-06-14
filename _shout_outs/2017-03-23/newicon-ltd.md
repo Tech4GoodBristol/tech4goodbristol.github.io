@@ -1,4 +1,5 @@
 ---
+date: 2017-03-23
 title: Newicon Ltd
 contact_name: Nicole Neo
 contact_details:  nicole.neo@newicon.net

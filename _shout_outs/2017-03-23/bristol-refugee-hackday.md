@@ -1,4 +1,5 @@
 ---
+date: 2017-03-23
 title: Bristol Refugee Hackday
 contact_name: 
 contact_details:  https://bristolrefugeehackday.wordpress.com

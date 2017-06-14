@@ -1,4 +1,5 @@
 ---
+date: 2017-03-23
 title: Volunteer Bristol VOSCUR
 contact_name: Jessica@volunteerbristol.org.uk
 contact_details:  https://www.voscur.org

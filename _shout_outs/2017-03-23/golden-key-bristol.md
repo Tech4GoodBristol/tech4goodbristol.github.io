@@ -1,4 +1,5 @@
 ---
+date: 2017-03-23
 title: Golden Key Bristol
 contact_name: Beth Fouracre
 contact_details:  beth.fouracre@goldenkeybristol.org.uk
