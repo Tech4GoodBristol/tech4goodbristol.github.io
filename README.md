@@ -34,7 +34,7 @@ Tech4Good Bristol website
 * Collections are for collections of things. This is like Wordpress custom post types. Each collection is declared in the `_config.yml` file and has a subfolder beginning with an underscore e.g. `_shout_outs` (N.B. collection names can't have hyphens hence the underscore). Think of it as database tables where the collection subfolder e.g. `_shout_outs` is the database table and each `.md` Markdown file within it is a row in the table.
 * The files can contain metadata which can be accessed using variables and rendered to the page.
 * Take a look at `shout-outs.html`. There is a for-loop going through all shout outs and rendering each one as an individual table. This is like a PHP for-loop going through results from a SQL query and printing them out.
-* In the folder `shout-outs` I have individual HTML files rendering the shout outs from each meetup. E.g. `shout-outs/2017-03-23.html` contain the shou outs from 23 May 2017. The rendering logic filters them by date:
+* In the folder `shout-outs` I have individual HTML files rendering the shout outs from each meetup. E.g. `shout-outs/2017-03-23.html` contain the shout outs from 23 May 2017. The rendering logic filters them by date:
 
 ```
 {% for shout_out in site.shout_outs %}
@@ -53,7 +53,7 @@ docker run --rm --label=jekyll --volume=$HOME/Sites/tech4goodbristol.github.io:/
 ```
 
 * Change `$HOME/Sites/tech4goodbristol.github.io` to the **absolute path** to where this repo is located. `$HOME` is a bash alias pointing to the current user's home directory e.g. `/Users/nicole`.
-* When your bash prompt shows `jekyll/jekyll$` you're inside the Jekyll environment. Type `exit` to exit the container and return to your bash prompt.
+* When your bash prompt shows `jekyll/jekyll #` you're inside the Jekyll environment. Type `exit` to exit the container and return to your bash prompt.
 * On first run, run `bundle install`. This will install the Ruby dependencies into `vendor/bundle`.
 * To build the website, run `jekyll serve`. It will build the static site and put the static files into `_site`. This is like the `public_html` that `http://localhost:4000` will look for. The Jekyll server runs on port 4000.
 * Output of `jekyll serve`:
