@@ -1,4 +1,5 @@
 ---
+date: 2017-03-23
 title: University Student work experience
 contact_name: Ian Brooks
 contact_details:  ian.brooks@uwe.ac.uk search UWE Cake and skillsbridge.ac.uk

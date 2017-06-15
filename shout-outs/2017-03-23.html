@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Shout outs
+title: Community Shout outs 23 March 2017
 ---
             <div class="text-container center">
                 <p>Shout outs are a way of letting the meetup group know about events, projects, other meetup groups, tools, and anything you think will be of interest.</p>
@@ -8,7 +8,8 @@ title: Community Shout outs
 
             <ul class="shoutouts">
             {% for shout_out in site.shout_outs %}
-            {% if shout_out.layout != 'page' %}
+            {% capture date_str %}{{ shout_out.date | date: '%Y-%m-%d' }}{% endcapture %}
+            {% if date_str == '2017-03-23' %}
                 <li class="shoutouts-row">
                     <div class="shoutouts-org">
                         <span class="info">

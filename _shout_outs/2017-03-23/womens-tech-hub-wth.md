@@ -1,4 +1,5 @@
 ---
+date: 2017-03-23
 title: Womens Tech Hub WTH
 contact_name: Serrie or Constance
 contact_details:  info@wthub.org

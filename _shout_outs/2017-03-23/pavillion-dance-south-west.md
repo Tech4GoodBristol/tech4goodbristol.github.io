@@ -1,4 +1,5 @@
 ---
+date: 2017-03-23
 title: Pavillion Dance South West
 contact_name: Kate
 contact_details:  http://www.pdsw.org.uk/what-s-on/other-events/new-tech-new-movement-new-future/ 

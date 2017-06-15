@@ -11,6 +11,6 @@ Blog excerpt. Far far away, behind the word mountains, far from the countries Vo
 
 <ul class="post-links">
                 <li><a href="#">View meetup presentation</a></li>
-                <li><a href="shoutouts.html">View meetup shout outs</a></li>
+                <li><a href="/shout-outs/2017-03-23/">View meetup shout outs</a></li>
                 <li><a href="#">View raw data</a></li>
 </ul>
