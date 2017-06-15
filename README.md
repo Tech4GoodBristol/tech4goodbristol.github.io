@@ -21,7 +21,8 @@ Tech4Good Bristol website
 
 {% include footer.html %}
 ```
-    - This is like PHP includes. `header.html` and `footer.html` reside in `_includes`.
+
+* This is like PHP includes. `header.html` and `footer.html` reside in `_includes`.
     - Content is where the different page contents are rendered.
 * The other files are like Wordpress custom templates. They get put into `{{ content }}` of `default.html`
     - `page.html` is for a single page
@@ -54,7 +55,7 @@ docker run --rm --label=jekyll --volume=$HOME/Sites/tech4goodbristol.github.io:/
 * Change `$HOME/Sites/tech4goodbristol.github.io` to the **absolute path** to where this repo is located. `$HOME` is a bash alias pointing to the current user's home directory e.g. `/Users/nicole`.
 * When your bash prompt shows `jekyll/jekyll$` you're inside the Jekyll environment. Type `exit` to exit the container and return to your bash prompt.
 * On first run, run `bundle install`. This will install the Ruby dependencies into `vendor/bundle`.
-* To build the website, run `jekyll serve`. It will build the static site and put the static files into `_site`. This is like the `public_html` that `http://localhost:4000` will look for.
+* To build the website, run `jekyll serve`. It will build the static site and put the static files into `_site`. This is like the `public_html` that `http://localhost:4000` will look for. The Jekyll server runs on port 4000.
 * Output of `jekyll serve`:
 
 ```bash
@@ -71,8 +72,15 @@ Configuration file: /srv/jekyll/_config.yml
   Server running... press ctrl-c to stop.
 ```
 
-* It will watch for changes in the files and rebuild the whole static site.
-* Once happy with the build, add the files, make a new commit and make a pull request to make the changes live on [http://tech4goodbristol.github.io](http://tech4goodbristol.github.io)!
+* It will watch for changes in the files and rebuild the whole static site. The local version is available on `http://localhost:4000`. 
+* **Exit Jekyll** by running the command `exit`. The bash prompt now shows my Mac is Jekyll Docker has exited. The address `http://localhost:4000` won't be accessible now as port 4000 was the Jekyll server. To view the local site again, run the `docker run...` command and run `jekyll serve` inside it.
+
+```bash
+/srv/jekyll # exit
+Nicoles-MBP:jekyll nicole$ 
+```
+
+* Once happy with the build, add the files (N.B. `_site` is ignored as GitHub will build their own static site version after a commit is pushed to master), make a new commit and make a pull request to make the changes live on [http://tech4goodbristol.github.io](http://tech4goodbristol.github.io)!
 
 ## Shout outs CSV to .md files
 * The `utils` folder contains a Python script to parse a CSV and generate individual `.md` files for each shout out in `_shout_outs/yyyy-mm-dd`.
