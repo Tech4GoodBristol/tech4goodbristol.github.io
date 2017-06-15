@@ -37,6 +37,7 @@ with open(csvFileName, 'rb') as csvfile:
 	csvreader = csv.reader(csvfile, delimiter=',', quotechar='\\')
 	for row in  csvreader:
 		data = {}
+		data['date'] = dateStr
 		data['organisation'] = row[0]
 		data['main_contact'] = row[1]
 		data['contact_details'] = row[2]

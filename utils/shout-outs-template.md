@@ -1,4 +1,5 @@
 ---
+date: {date}
 title: {organisation}
 contact_name: {main_contact}
 contact_details:  {contact_details}
