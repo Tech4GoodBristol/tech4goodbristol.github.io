@@ -7,7 +7,7 @@ layout: default
 
   <header class="post-header">
     {% if page.categories contains "guest" %}
-      <span class="ui blue ribbon label">Guest Post</span>
+      <div class="guest-wrapper"><span class="ui blue ribbon label">Guest Post</span></div>
     {% endif %}
     <a class="post-title" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
     <span class="post-meta">

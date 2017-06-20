@@ -645,6 +645,16 @@ placeholder
     height: 0;
 }
 
+.guest-wrapper{
+    position: static;
+    text-align: left;
+    margin-top: 2em;
+}
+
+.guest-wrapper .ui.ribbon.label{
+    left: auto;
+}
+
 /* shoutouts */
 .shoutouts{
     padding-left: 0;
